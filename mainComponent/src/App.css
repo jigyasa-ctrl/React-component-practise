@@ -45,6 +45,16 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+.name {
+  font-weight: 600;
+}
+.comment{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  width: 15rem;
+  
+}
 
 .App-link {
   color: #61dafb;
