@@ -4,6 +4,8 @@ import TicTacToe from './Components/TicTacToe';
 import NextedComments from "./Components/NestedComments"
 import VirtualisedList from "./Components/VirtualizedList"
 import Breadcrumb from "./Components/Breadcrumb"
+import ThrottleComp from "./Components/useThrottle"
+import DebounceComp from "./Components/DebounceComp"
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       {/* <TicTacToe /> */}
       {/* <NextedComments /> */}
       {/* <VirtualisedList /> */}
-      <Breadcrumb />
+      {/* <Breadcrumb /> */}
+      {/* <ThrottleComp /> */}
+      <DebounceComp />
     </div>
   );
 }
