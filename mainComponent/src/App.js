@@ -6,6 +6,7 @@ import VirtualisedList from "./Components/VirtualizedList"
 import Breadcrumb from "./Components/Breadcrumb"
 import ThrottleComp from "./Components/useThrottle"
 import DebounceComp from "./Components/DebounceComp"
+import HackerRank from "./Components/hackerRank"
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <VirtualisedList /> */}
       {/* <Breadcrumb /> */}
       {/* <ThrottleComp /> */}
-      <DebounceComp />
+      {/* <DebounceComp /> */}
+      <HackerRank />
     </div>
   );
 }
