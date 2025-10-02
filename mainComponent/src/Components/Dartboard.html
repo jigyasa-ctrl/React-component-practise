@@ -1,0 +1,32 @@
+<style>
+    .dartboard {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: red;           /* outer circle */
+  position: relative;
+}
+
+.dartboard::before {
+  content: "";
+  position: absolute;
+  margin: 20px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: white;        /* middle circle */
+}
+
+.dartboard::after {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;          /* innermost circle */
+}
+
+</style>
+<div class="dartboard"></div>
