@@ -56,6 +56,33 @@
   
 }
 
+.defaultcss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  /* display: inline-block; */
+  font-size: 30px;
+  color: lightgray;
+}
+
+.defaultcss::before {
+  content: attr(data-text);
+  position: absolute;
+  color: green;
+  left: 35px;
+  /* white-space: inherit; */
+
+}
+.defaultcss::after {
+  content: attr(data-after);
+  position: absolute;
+  color: red;
+  left: var(--caret-x, 0px);
+  /* white-space: inherit; */
+
+}
+
 .App-link {
   color: #61dafb;
 }

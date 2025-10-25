@@ -7,6 +7,7 @@ import Breadcrumb from "./Components/Breadcrumb"
 import ThrottleComp from "./Components/useThrottle"
 import DebounceComp from "./Components/DebounceComp"
 import HackerRank from "./Components/hackerRank"
+import TypingCorrector from './Components/TypingCorrector';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Breadcrumb /> */}
       {/* <ThrottleComp /> */}
       {/* <DebounceComp /> */}
-      <HackerRank />
+      {/* <HackerRank /> */}
+      <TypingCorrector />
     </div>
   );
 }
