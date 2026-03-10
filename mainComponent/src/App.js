@@ -8,6 +8,7 @@ import ThrottleComp from "./Components/useThrottle"
 import DebounceComp from "./Components/DebounceComp"
 import HackerRank from "./Components/hackerRank"
 import TypingCorrector from './Components/TypingCorrector';
+import ConcetricCircles from './Components/concentricCircles';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <ThrottleComp /> */}
       {/* <DebounceComp /> */}
       {/* <HackerRank /> */}
-      <TypingCorrector />
+      {/* <TypingCorrector /> */}
+      {/* <ConcetricCircles number={2} /> */}
     </div>
   );
 }

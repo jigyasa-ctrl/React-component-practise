@@ -73,6 +73,7 @@ export default function ConcetricCircles({ number }) {
           height: `${number * 200}px`,
           width: `${number * 200}px`,
           border: "2px solid red",
+          borderRadius: "50%",
         }}
       >
         {number > 1 && createConcentrics(number - 1)}
