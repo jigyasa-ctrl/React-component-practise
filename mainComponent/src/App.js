@@ -9,7 +9,8 @@ import DebounceComp from "./Components/DebounceComp"
 import HackerRank from "./Components/hackerRank"
 import TypingCorrector from './Components/TypingCorrector';
 import ConcetricCircles from './Components/concentricCircles';
-
+import Debounce from './Components/Debounce';
+import SquareWrapper from './Components/square/SquareWrapper';
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,8 @@ function App() {
       {/* <HackerRank /> */}
       {/* <TypingCorrector /> */}
       {/* <ConcetricCircles number={2} /> */}
+      {/* <Debounce /> */}
+      <SquareWrapper />
     </div>
   );
 }
