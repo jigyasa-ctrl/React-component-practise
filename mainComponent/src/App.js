@@ -11,6 +11,7 @@ import TypingCorrector from './Components/TypingCorrector';
 import ConcetricCircles from './Components/concentricCircles';
 import Debounce from './Components/Debounce';
 import SquareWrapper from './Components/square/SquareWrapper';
+import FileExplorerWrapper from './Components/FileExplorer';
 function App() {
   return (
     <div className="App">
@@ -24,7 +25,8 @@ function App() {
       {/* <TypingCorrector /> */}
       {/* <ConcetricCircles number={2} /> */}
       {/* <Debounce /> */}
-      <SquareWrapper />
+      {/* <SquareWrapper /> */}
+      <FileExplorerWrapper />
     </div>
   );
 }
