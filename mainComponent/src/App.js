@@ -12,6 +12,7 @@ import ConcetricCircles from './Components/concentricCircles';
 import Debounce from './Components/Debounce';
 import SquareWrapper from './Components/square/SquareWrapper';
 import FileExplorerWrapper from './Components/FileExplorer';
+import Circles from "./Components/DrawCircles"
 function App() {
   return (
     <div className="App">
@@ -26,7 +27,8 @@ function App() {
       {/* <ConcetricCircles number={2} /> */}
       {/* <Debounce /> */}
       {/* <SquareWrapper /> */}
-      <FileExplorerWrapper />
+      {/* <FileExplorerWrapper /> */}
+      <Circles />
     </div>
   );
 }

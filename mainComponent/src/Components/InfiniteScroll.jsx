@@ -10,6 +10,10 @@ export default function App() {
       }
     };
     document.addEventListener("scroll", onScroll);
+
+    return () => {
+      document.removeEventListener("scroll", onScroll)
+    }
   }, [count]);
   const element = Array(count).fill("abc");
   element.push();
