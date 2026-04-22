@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./styles.css";
 import Comments from "./Comments";
-import Progressbar from "./Progressbar";
+import Progressbar from "./progressbar";
 
 export default function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
